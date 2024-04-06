@@ -1,0 +1,97 @@
+body {
+  background-color: #141414;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.netflix-padding-left {
+  padding-left: 57px;
+}
+
+.netflix-padding-right {
+  padding-right: 57px;
+}
+
+.netflix-navbar {
+  width: 101vw;
+  z-index: 1000;
+  transition: background 0.2s linear;
+  background-color: black;
+}
+
+.netflix-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+
+.netflix-dropdown {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.644);
+  font-size: 20px;
+  margin-left: -30px;
+  color: black;
+}
+.dropdown-toggle:hover .dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.dropdown-item {
+  color: #141414;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+svg.bi-search {
+  font-weight: bold;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.section-right ul {
+  list-style: none;
+}
+
+.section-right img {
+  width: 40px;
+}
+
+.wrapper {
+  margin-top: 35px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: scroll-left 1s ease-in-out;
+}
+
+.wrapped {
+  margin-top: 35px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: scroll-left 0.5s ease-in-out;
+}
+.wrapped2 {
+  margin-top: 35px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: scroll-left 0.5s ease-in-out;
+}
+
+.bi {
+  cursor: pointer;
+}

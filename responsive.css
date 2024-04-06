@@ -1,0 +1,30 @@
+/* Navbar */
+@media (max-width: 576px) {
+  .navbar {
+    /* Nascondi la navbar su dispositivi con larghezza minore di 576px */
+    display: none;
+  }
+}
+
+/* Header */
+@media (max-width: 576px) {
+  header {
+    /* Nascondi l'header su dispositivi con larghezza minore di 576px */
+    display: none;
+  }
+}
+
+/* Main */
+@media (max-width: 576px) {
+  main {
+    /* Aggiungi i tuoi stili specifici per il main su dispositivi mobili */
+  }
+}
+
+/* Footer */
+@media (max-width: 576px) {
+  footer {
+    /* Nascondi il footer su dispositivi con larghezza minore di 576px */
+    display: none;
+  }
+}
